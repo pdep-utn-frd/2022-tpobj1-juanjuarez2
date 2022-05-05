@@ -2,7 +2,7 @@ import wollok.game.*
     
 const velocidad = 250
 const velocidad2 = 275
-const cumbia = game.sound("musica.mp3")  //La musica, estoy viendo como poder hacer para bajarle el volumen
+
 
 object juego{
 

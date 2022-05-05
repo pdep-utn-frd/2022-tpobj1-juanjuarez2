@@ -3,8 +3,12 @@ import wollok.game.*
 import dino.* 
 
 program dino {
+	const cumbia = game.sound("musica.mp3")
+	cumbia.shouldLoop(true)
+	cumbia.volume(0.04)
     game.schedule(100, {cumbia.play()})
 	juego.configurar()
 	juego.iniciar()
 	game.start()
+	
 }
